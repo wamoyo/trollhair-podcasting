@@ -1,0 +1,28 @@
+# Swap files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+
+# Node modules (if we add the Deno viewer)
+node_modules/
+
+# Deno cache
+.deno/
+
+# Archive folder (large media files)
+archive/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
