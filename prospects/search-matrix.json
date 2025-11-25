@@ -1,0 +1,13 @@
+{
+  "description": "Search matrix for finding podcast guests - TBD",
+  "industries": [],
+  "roles": [],
+  "connector_types": [],
+  "locations": [],
+  "current_position": {
+    "industry_index": 0,
+    "role_index": 0,
+    "location_index": 0
+  },
+  "notes": "To be refined based on target customer profile for carbon nanotube manufacturing"
+}
