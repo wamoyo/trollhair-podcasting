@@ -1,13 +1,227 @@
 {
-  "description": "Search matrix for finding podcast guests - TBD",
-  "industries": [],
-  "roles": [],
-  "connector_types": [],
-  "locations": [],
+  "description": "Search matrix for finding podcast guests - systematic coverage via [Vertical] × [Role] × [Location]",
+  "tier_mix": {
+    "description": "Current priority: 50% Tier 1 (plastics), 50% Tiers 2+3",
+    "tier_1_weight": 0.5,
+    "tier_2_3_weight": 0.5
+  },
+  "qualification_floor": {
+    "min_employees": 50,
+    "min_revenue": "$10M"
+  },
+  "verticals": {
+    "tier_1_plastics": [
+      "plastics compounder",
+      "masterbatch producer",
+      "injection molding company",
+      "plastic extrusion company",
+      "thermoplastic compounder",
+      "custom plastic manufacturer",
+      "3D printing plastics",
+      "prepreg manufacturer",
+      "composite materials manufacturer"
+    ],
+    "tier_2_exciting": [
+      "Formula 1 team",
+      "America's Cup sailing team",
+      "electric aircraft manufacturer",
+      "high-performance bicycle manufacturer",
+      "carbon fiber bicycle",
+      "tennis racket manufacturer",
+      "golf club manufacturer",
+      "yacht builder",
+      "sailboat manufacturer",
+      "satellite manufacturer",
+      "aerospace composites supplier",
+      "wind turbine blade manufacturer",
+      "freediving fins manufacturer",
+      "diving equipment manufacturer",
+      "IndyCar supplier",
+      "NASCAR composites supplier",
+      "motorsports composites",
+      "luxury automotive composites",
+      "fishing rod manufacturer",
+      "kayak manufacturer",
+      "canoe manufacturer",
+      "motorcycle armor manufacturer",
+      "body armor manufacturer",
+      "ballistic materials",
+      "bicycle tire manufacturer",
+      "performance wetsuit manufacturer"
+    ],
+    "tier_3_high_volume": [
+      "fiber reinforced concrete",
+      "concrete additives manufacturer",
+      "power cable manufacturer",
+      "wire and cable manufacturer",
+      "construction materials manufacturer",
+      "3D printed concrete"
+    ],
+    "connectors": [
+      "materials science professor",
+      "composites consultant",
+      "Composites World editor",
+      "SAMPE speaker",
+      "advanced materials analyst",
+      "composites trade association",
+      "materials research lab director"
+    ]
+  },
+  "roles": {
+    "technical": [
+      "Materials Engineer",
+      "Composites Engineer",
+      "Materials Scientist",
+      "R&D Director",
+      "VP R&D",
+      "Chief Scientist",
+      "Technical Director",
+      "Senior Materials Engineer"
+    ],
+    "business": [
+      "Director of Engineering",
+      "VP Engineering",
+      "CTO",
+      "Director of Innovation",
+      "Product Development Manager",
+      "CEO",
+      "Founder"
+    ],
+    "procurement": [
+      "Procurement Manager",
+      "Sourcing Manager",
+      "Supply Chain Director"
+    ]
+  },
+  "locations": {
+    "priority_hubs": [
+      {"name": "Detroit, MI", "reason": "Automotive, manufacturing"},
+      {"name": "Seattle, WA", "reason": "Aerospace (Boeing), composites"},
+      {"name": "Los Angeles, CA", "reason": "Aerospace, SpaceX"},
+      {"name": "Houston, TX", "reason": "Aerospace, energy"},
+      {"name": "San Francisco Bay Area, CA", "reason": "Tech, startups"},
+      {"name": "Boston, MA", "reason": "Materials science, MIT"},
+      {"name": "Austin, TX", "reason": "Tech, manufacturing"},
+      {"name": "Phoenix, AZ", "reason": "Aerospace, manufacturing"},
+      {"name": "Charlotte, NC", "reason": "Composites corridor"},
+      {"name": "Wichita, KS", "reason": "Aerospace manufacturing"},
+      {"name": "San Diego, CA", "reason": "Defense, aerospace"},
+      {"name": "Dallas, TX", "reason": "Manufacturing, aerospace"}
+    ],
+    "states_alphabetical": [
+      "Alabama", "Arizona", "California", "Colorado", "Connecticut",
+      "Florida", "Georgia", "Illinois", "Indiana", "Kansas",
+      "Kentucky", "Louisiana", "Maryland", "Massachusetts", "Michigan",
+      "Minnesota", "Missouri", "New Jersey", "New York", "North Carolina",
+      "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "South Carolina",
+      "Tennessee", "Texas", "Utah", "Virginia", "Washington", "Wisconsin"
+    ]
+  },
   "current_position": {
-    "industry_index": 0,
+    "tier": "tier_1_plastics",
+    "vertical_index": 0,
+    "role_category": "technical",
     "role_index": 0,
+    "location_type": "priority_hubs",
     "location_index": 0
   },
-  "notes": "To be refined based on target customer profile for carbon nanotube manufacturing"
+  "stats": {
+    "total_possible_searches": "~3000+",
+    "searches_completed": 0,
+    "tier_1_searches": 0,
+    "tier_2_searches": 0,
+    "tier_3_searches": 0,
+    "connector_searches": 0
+  },
+  "known_companies": {
+    "tier_1_plastics": [
+      "Mosaic (existing relationship)",
+      "Insight Polymers (existing relationship)"
+    ],
+    "tier_2_f1_teams": [
+      "Red Bull Racing",
+      "Mercedes-AMG Petronas",
+      "Scuderia Ferrari",
+      "McLaren",
+      "Aston Martin",
+      "Alpine",
+      "Williams",
+      "Alfa Romeo",
+      "Haas",
+      "AlphaTauri"
+    ],
+    "tier_2_electric_aircraft": [
+      "Eviation",
+      "MagniX",
+      "Pipistrel",
+      "Ampaire",
+      "Bye Aerospace",
+      "Zunum Aero"
+    ],
+    "tier_2_cycling": [
+      "Cervélo",
+      "Colnago",
+      "Bianchi",
+      "Trek",
+      "Cannondale",
+      "Specialized",
+      "BMC",
+      "Orbea",
+      "Pinarello"
+    ],
+    "tier_2_tennis": [
+      "Yonex",
+      "Head",
+      "Babolat",
+      "Wilson"
+    ],
+    "tier_2_golf": [
+      "TaylorMade",
+      "Callaway",
+      "Mizuno",
+      "Titleist"
+    ],
+    "tier_2_sailing": [
+      "Nautor Swan",
+      "Beneteau",
+      "Hinckley",
+      "Oyster",
+      "Wally",
+      "Morelli & Melvin"
+    ],
+    "tier_2_wind_turbines": [
+      "Vestas",
+      "GE Renewable Energy",
+      "Siemens Gamesa"
+    ],
+    "tier_3_concrete": [
+      "BASF",
+      "Sika",
+      "CEMEX",
+      "Bekaert"
+    ],
+    "tier_3_cables": [
+      "Southwire",
+      "Prysmian Group"
+    ],
+    "prepreg_composite": [
+      "Toray",
+      "Teijin",
+      "Solvay",
+      "Hexcel"
+    ]
+  },
+  "competitors_to_avoid": [
+    "Arkema SA",
+    "Nanocyl SA",
+    "Nanoshell LLC",
+    "Carbon Solutions, Inc.",
+    "Hyperion Catalysis International",
+    "SHOWA DENKO K.K.",
+    "Klean Commodities",
+    "Cabot Corporation",
+    "OCSiAl",
+    "NoPo Nanotechnologies",
+    "Jiangsu Cnano Technology Co., Ltd."
+  ]
 }

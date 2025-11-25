@@ -315,22 +315,173 @@ TBD - Thank you package for guests.
 
 ---
 
-## Search Matrix (TBD)
+## Target Audience & Search Strategy
 
-To be refined based on:
-- Target industries (aerospace, automotive, electronics, etc.)
-- Target roles (R&D directors, materials engineers, product managers)
-- Connector types (industry associations, professors, consultants)
-- Geographic focus
+### Troll Hair's Unique Value
+Carbon nanotubes that deliver ~20x tensile strength improvement over carbon fiber, plus significant durability gains.
+
+### ⚠️ COMPETITOR WARNING
+
+**DO NOT invite direct CNT competitors as guests.** These include:
+- Arkema SA
+- Nanocyl SA
+- Nanoshell LLC
+- Carbon Solutions, Inc.
+- Hyperion Catalysis International
+- SHOWA DENKO K.K.
+- Klean Commodities
+- Cabot Corporation
+- OCSiAl
+- NoPo Nanotechnologies
+- Jiangsu Cnano Technology Co., Ltd.
+
+When in doubt, check if a company manufactures carbon nanotubes. If yes, skip them.
+
+### Qualification Floor
+
+Target companies with:
+- **50+ employees**
+- **$10M+ revenue**
+
+This ensures they can purchase at meaningful volume.
+
+### Tier Mix (Current Priority)
+
+**50% Tier 1** (Plastics - immediate customers)
+**50% Tiers 2+3** (Exciting applications + high volume future)
+
+This balance prioritizes near-term sales opportunities while building relationships for future markets.
 
 ---
 
-## Coding Standards
+## Search Matrix
 
-Follow conventions from global CLAUDE.md:
-- Use `var`/`let`, no `const`
-- Regular functions for multi-line, arrows only for single-line returns
-- Space between function name and opening parenthesis
-- No semicolons except where required
-- Pure functions with documented inputs/outputs
-- Comments describing each function's purpose
+The matrix creates systematic coverage: `[Vertical] × [Role] × [Location]`
+
+### Tier 1: Plastics (Immediate Customers)
+
+These companies can use CNTs NOW in their existing processes.
+
+**Verticals:**
+- Plastics compounders
+- Masterbatch producers
+- Injection molding companies
+- Extrusion companies
+- Thermoplastic compounders
+- Custom plastic manufacturers
+- 3D printing (plastic - FDM/SLS)
+- Prepreg/composite manufacturers
+
+### Tier 2: Exciting Applications (Customer Discovery)
+
+High-performance applications where CNT properties create compelling value.
+
+**Verticals:**
+- Formula 1 teams
+- America's Cup / professional sailing teams
+- Electric aircraft manufacturers
+- High-performance cycling (frames, components)
+- Tennis equipment manufacturers
+- Golf equipment manufacturers
+- Yacht/sailboat builders
+- Satellite manufacturers
+- Aerospace suppliers
+- Wind turbine blade manufacturers
+- Freediving/diving equipment
+- Motorsports (IndyCar, NASCAR suppliers)
+- High-end automotive
+- Fishing rod manufacturers
+- Kayak/canoe manufacturers
+- Motorcycle gear (jackets, armor)
+- Body armor manufacturers
+- Bike tire manufacturers
+
+### Tier 3: High Volume Future
+
+Large markets where CNTs could have massive impact with further R&D.
+
+**Verticals:**
+- Reinforced concrete companies
+- Power cable manufacturers
+- Wire and cable manufacturers
+- Construction materials
+- 3D printed concrete
+
+### Connectors
+
+People who know the buyers and can make referrals.
+
+**Types:**
+- Materials science professors
+- Composites industry consultants
+- Trade publication editors (Composites World, etc.)
+- SAMPE conference speakers/organizers
+- Industry analysts
+- Trade association directors
+- Materials research lab directors
+
+---
+
+## Roles to Target
+
+Apply these across all verticals:
+
+**Technical Decision Makers:**
+- Materials Engineer
+- Composites Engineer
+- Materials Scientist
+- R&D Director
+- VP of R&D
+- Chief Scientist
+- Technical Director
+
+**Business Decision Makers:**
+- Director of Engineering
+- VP of Engineering
+- CTO
+- Director of Innovation
+- Product Development Manager
+
+**Procurement (for compounders):**
+- Procurement Manager
+- Sourcing Manager
+- Supply Chain Director
+
+---
+
+## Geographic Strategy
+
+**Hub-prioritized, then systematic by state.**
+
+### Priority Hubs (search first)
+
+| Hub | Why |
+|-----|-----|
+| Detroit, MI | Automotive, manufacturing |
+| Seattle, WA | Aerospace (Boeing), composites |
+| Los Angeles, CA | Aerospace, SpaceX, entertainment |
+| Houston, TX | Aerospace, energy, manufacturing |
+| Bay Area, CA | Tech, startups, innovation |
+| Boston, MA | Materials science, MIT corridor |
+| Austin, TX | Tech, manufacturing |
+| Phoenix, AZ | Aerospace, manufacturing |
+| Charlotte, NC | Composites corridor |
+| Wichita, KS | Aerospace manufacturing |
+| San Diego, CA | Defense, aerospace |
+| Dallas, TX | Manufacturing, aerospace |
+
+### Then Systematic by State
+
+After exhausting priority hubs, proceed alphabetically through remaining states with significant manufacturing presence.
+
+---
+
+## Search Matrix Usage
+
+See `prospects/search-matrix.json` for:
+- Current position in matrix
+- Completed combinations
+- Next searches to run
+
+Each search should yield ~5-15 prospects. Log results in `search-history.json`.
+
