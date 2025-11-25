@@ -2,6 +2,26 @@
 
 This podcast serves as a customer discovery tool for Troll Hair (carbon nanotube manufacturing). Guests should be potential customers OR well-networked with target customers who can make referrals.
 
+## Podcast Name (TBD)
+
+Shortlist for consideration:
+
+| Name | Why It Works |
+|------|--------------|
+| **The Hairy Details** | Play on "gory details" - getting into the nitty gritty |
+| **Tensile Talk** | Tensile strength is Troll Hair's edge - strong conversations |
+| **Splitting Hairs** | Common phrase for details + nano-scale "hairs" |
+| **Hair-Brained** | Play on "harebrained" - unconventional ideas |
+| **Nano Conversations** | Misdirect - sounds small but packs a punch |
+| **Hair Raising** | Exciting content + troll hair reference |
+| **Untangled** | Making sense of complex topics |
+| **Under the Bridge** | Classic troll reference |
+| **The Troll Toll** | Value exchange, memorable |
+
+## Episode Slug Convention
+
+`firstname-lastname-episode-title` (allows same guest multiple times)
+
 ---
 
 ## Pipeline Overview
